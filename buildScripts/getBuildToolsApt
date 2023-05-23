@@ -16,7 +16,6 @@ set -ev
 
 sudo apt-get update
 sudo apt-get $UNATTENDED install \
-  sudo                           \
   wget                           \
   git                            \
   pkg-config                     \
@@ -30,6 +29,5 @@ sudo apt-get $UNATTENDED install \
   dpkg                           \
   dpkg-dev                       \
   gettext                        \
-  openjdk-8-jre-headless         \
   jq
 
